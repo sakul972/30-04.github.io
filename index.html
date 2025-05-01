@@ -6,20 +6,39 @@
     <title>Document</title>
 </head>
 <body>
-
+<div id="nombre"></div>
 
 
     <script>
-        var dato =20;
-
-        if(dato>10){
-            document.write("La condicion es verdadera");
-        } else{
-            documentw.write("La condición es falsa")
+        var dato=20
+        if(dato<=0){
+            document.write("Tu número es menor igual a 0");
+        }
+        else if (dato<=5)
+        {
+            document.write("Tu número es mayor a 0, pero menor o igual a 5");
 
         }
+        else if (dato<=10)
+        {
+            document.write("Tu número es mayor a 5, pero menor o igual a 10");
 
+        }
+        else if (dato<=15)
+        {
+            document.write("Tu número es mayor a 10, pero menor o igual a 15");
 
+        }
+        else if (dato<=20)
+        {
+            document.write("Tu número es mayor a 15, pero menor o igual a 20");
+
+        }
+        else 
+        {
+            document.write("Tu número es mayor a 20");
+
+        }
     </script>
 </body>
 </html>
